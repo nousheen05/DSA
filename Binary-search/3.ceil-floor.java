@@ -31,9 +31,11 @@ class Main
                 start = mid+1;
             }
         }
+
+        //check whether the element(greater than gfiven element) exist in the array
         if(start<arr.length)
         return arr[start];
-        return -1;
+        return -1; //if no element is present which is equal to or greater than the given element
     }
     
     //a number that is smaller than or equal to the given number
