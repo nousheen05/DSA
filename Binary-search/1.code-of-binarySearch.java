@@ -11,6 +11,8 @@ class Main
 
     //return index of target if found
     //else -1
+    //O(logN)
+    //O(1)
     static int binarySearch(int[] arr, int target)
     {
         int start = 0;
